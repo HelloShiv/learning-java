@@ -8,8 +8,10 @@ public class PerformFileWriteOperation {
             fWriter.write("Java programming is ...");
         }
         finally{
+            
             fWriter.close();
         }
+        System.out.println("Successfully Data wrote in File");
     }
     
 }
