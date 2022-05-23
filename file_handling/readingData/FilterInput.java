@@ -1,5 +1,3 @@
-
-
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.FilterInputStream;
@@ -8,7 +6,9 @@ import java.io.FilterInputStream;
 
  public class FilterInput {
     public static void main(String[] args) throws Exception{
-        
+
+            int a =20;
+            System.out.printf("%d", a);
             FileInputStream fin = new FileInputStream("ABC.txt");
             FilterInputStream filterobj = new BufferedInputStream(fin);
             int k =0;
