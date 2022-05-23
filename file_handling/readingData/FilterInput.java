@@ -9,6 +9,7 @@ import java.io.FilterInputStream;
 
             int a =20;
             System.out.printf("%d", a);
+            // mention the data type when using printf as it is C style for language
             FileInputStream fin = new FileInputStream("ABC.txt");
             FilterInputStream filterobj = new BufferedInputStream(fin);
             int k =0;
