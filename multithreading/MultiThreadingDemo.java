@@ -17,6 +17,9 @@ public class MultiThreadingDemo {
         catch (InterruptedException e){
             System.out.println("Main thread iterrupted");
         }
+        finally{
+            System.out.println("End of the program reached");
+        }
         
     }
 }
