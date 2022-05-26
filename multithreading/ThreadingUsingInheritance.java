@@ -18,7 +18,7 @@ class demo extends Thread{
         
     }
 }
-class MultiThreadingUsingInheritance {
+class ThreadingUsingInheritance {
     public static void main(String[] args) {
         new demo();
         try{

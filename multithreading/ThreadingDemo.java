@@ -1,7 +1,7 @@
 // we can use the thread as object or directly extend the class this is called thread class
 // Using interface as thread
 
-public class MultiThreadingDemo {
+public class ThreadingDemo {
     public static void main(String[] args) {
         Thread t = Thread.currentThread();
         t.setName("My Thread");

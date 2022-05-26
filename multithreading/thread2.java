@@ -23,7 +23,7 @@ class NewThread implements Runnable{
 
 
 
-public class Mutithread2 {
+public class thread2 {
     public static void main(String[] args) {
         new NewThread();
         try{
