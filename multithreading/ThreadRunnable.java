@@ -33,5 +33,4 @@ public class ThreadRunnable {
     }
 }
 
-// Total number of thread are four as we have three demo one,two,three and then
-// main
+// Total number of thread are four as we have three demo one,two,three and then main
