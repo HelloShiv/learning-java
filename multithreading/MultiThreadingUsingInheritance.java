@@ -1,3 +1,4 @@
+// WAP to implement mutlithreading by inheriting Thread 
 class demo extends Thread{
     demo(){
         super("Super Thread");
