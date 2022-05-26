@@ -20,7 +20,7 @@ class demo implements Runnable {
         } catch (Exception e) {
             System.out.println(e);
         }
-        System.out.println("\nExisting thread" + name);
+        System.out.println("\nExisting thread: " + name);
     }
 }
 
@@ -33,4 +33,5 @@ public class ThreadRunnable {
     }
 }
 
-// Total number of thread are four as we have three demo one,two,three and then main
+// Total number of thread are four as we have three demo one,two,three and then
+// main
