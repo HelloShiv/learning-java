@@ -1,4 +1,4 @@
-// WAP and show Threading using Runnable
+// WAP and show Threading using Runnable and setPriority 
 class demo implements Runnable {
     String name;
     Thread t;
@@ -7,6 +7,7 @@ class demo implements Runnable {
         name = s;
         t = new Thread(this, name);
         System.out.println("New Thread: " + t);
+        // Setting Priority
         t.setPriority(a);
         t.start();
     }
