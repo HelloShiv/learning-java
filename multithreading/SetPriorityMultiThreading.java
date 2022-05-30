@@ -28,9 +28,19 @@ class demo implements Runnable {
 
 public class SetPriorityMultiThreading {
     public static void main(String[] args) {
-        new demo("One",5);
-        new demo("Two",10);
-        new demo("Three",1);
+       demo d1 = new demo("One",5);
+       demo d2 = new demo("Two",10);
+       demo d3 = new demo("Three",1);
+       demo d4 = new demo ("Four", Thread.MIN_PRIORITY);
+       demo d5 = new demo("Five", Thread.MAX_PRIORITY);
+       demo d6 = new demo("six", Thread.NORM_PRIORITY);
+        try{d1.t.join();
+        d2.t.join();
+        d3.t.join();
+        d4.t.join();
+        d5.t.join();
+        d6.t.join();
+        } catch(Exception e){}
 
     }
 }
