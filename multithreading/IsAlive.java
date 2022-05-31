@@ -19,7 +19,7 @@ class demo implements Runnable{
         catch(Exception e){
             System.out.println(e);
         }
-        System.out.println("End of demo: " + name);
+        System.out.println("End of demo: " + name); 
     }
 }
 
